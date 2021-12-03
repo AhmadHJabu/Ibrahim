@@ -11,15 +11,15 @@
     line-height: 48px;
     color: #fff;
     padding: 0px 35px;
-    font-family: "Lora",serif;
+    font-family: 'Raleway',serif;
     font-size: 15px;
     font-weight: 400;
     outline: none !important;
     text-align: center;
     cursor: pointer;
     text-transform: capitalize;
-    background: #ff573d;
-    border: 1px solid #ff573d;
+    background: #000;
+    border: 1px solid #000;
     border-radius: 2px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
