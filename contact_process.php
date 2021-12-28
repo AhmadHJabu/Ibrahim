@@ -34,4 +34,11 @@
 
     $send = mail($to, $subject, $body, $headers);
 
+	if (@mail($to, $email, $message, $headers))
+    {
+        echo 'The message has been sent.';
+    }else{
+        echo 'failed';
+    }
+
 ?>
