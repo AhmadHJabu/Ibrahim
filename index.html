@@ -1,153 +1,280 @@
 <!DOCTYPE html>
-<html lang="zxx" class="no-js">
-
-<head>
-	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Favicon-->
-	<link rel="shortcut icon" href="img/fav.png">
-	<!-- Author Meta -->
-	<meta name="author" content="Ahmad Jabu">
-	<!-- Meta Description -->
-	<meta name="description" content="">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content="">
-	<!-- meta character set -->
-	<meta charset="UTF-8">
-	<!-- Site Title -->
-	<title>Pixal | Ibrahim Ajax Studios</title>
-
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+<html lang="en">
+  <head>
+    <title>Ibrahim Ajax | Data Analyst</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;600;700;800&display=swap" rel="stylesheet">
-	<!--
-			CSS
-			============================================= -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="css/nice-select.css">
-	<link rel="stylesheet" href="css/main.css">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-<body>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-	<!--================ Start Header Area =================-->
-	<header class="default-header">
-		<nav class="navbar navbar-expand-lg navbar-light">
-			<div class="container">
-				<a class="navbar-brand" href="index.html">
-					<img src="img/logo.png" alt="">
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="fa fa-bars"></span>
-				</button>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
-				<div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
-					<ul class="navbar-nav">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
-	<!--================ End Header Area =================-->
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
-	<!--================ start banner Area =================-->
-	<section class="home-banner-area relative" id="home" data-parallax="scroll" data-image-src="img/header-bg.png">
-		<div class="container">
-			<div class="row fullscreen justify-content-lg-first">
-				<div class="banner-content col-lg-6">
-					<h1>
-						Create insights and make sense of data.
-					</h1>
-					<a href="contact.html" class="primary-btn">
-						Contact Me					
-					</a>
-					<!--<img class="img-fluid" src="img/logo-header.png" width="500px" alt="Luca Logo">-->
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End banner Area =================-->
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
+    <link rel="stylesheet" href="css/aos.css">
 
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target mb-5" role="banner">
+      <div class="container">
+        <div class="row align-items-center"> 
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.html" class="mb-0">Ibrahim</a></h1>
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <li><a href="#services-section" class="nav-link">Services</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+        </div>
+      </div>
+      
+    </header>
+    <div class="site-blocks-cover" style="background-image: url(images/hero_1.jpg);" data-aos="fade" id="home-section">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-6 mt-lg-5 text-center">
+            <h1>Create Insights And Make Sense Of Data</h1>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
+            <div class="btn btn-primary btn-md text-white">Contact Us</div>
+          </div>
+        </div>
+      </div>
 
-	<!--================ Start Home Project Area =================-->
-	<section class="ibrahim-project-area section-gap-top mt-150">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-6 single-blog">
-					<div class="thumb">
-						<a href="contact.html">
-						<img class="img-fluid" src="img/mobile-fifth.gif" alt="">
-					    </a>
-					</div>
-					<div class="single-blog-info">
-							<h5 class="text-center">CAREERS AT PIXAR</h5>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 single-blog">
-					<div class="thumb">
-						<a href="contact.html">
-						<img class="img-fluid" src="img/mobile-second.jpg" alt="">
-					    </a>
-					</div>
-					<div class="single-blog-info">
-							<h5 class="text-center">LIGHTYEAR</h5>
-					</div>
-				</div>
+      <a href="#howitworks-section" class="smoothscroll arrow-down"><span class="icon-arrow_downward"></span></a>
+    </div>  
 
-				<div class="col-lg-4 col-md-6 single-blog">
-					<div class="thumb">
-						<a href="contact.html">
-						<img class="img-fluid" src="img/mobile-fifth.jpg" alt="">
-					    </a>
-					</div>
-					<div class="single-blog-info">
-							<h5 class="text-center">TURNING RED</h5>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Home Project Area =================-->
+    
+    <div class="site-section h mt-5 mb-5" id="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="mb-5">Together as a team we bring ideas
+              to design and implementation of shiny Apps
+             </h2>
+            <p class="mt-5">Since 1993 we have worked with more than 40 different clients 
+              and different project across the nation. We have worked to build
+              Hotel construction, Road Construction, Hotels Constructions and 
+              bridges. We proud of all of our client we worked with. </p>
+
+              <p>Since 1993 we have worked with more than 40 different clients 
+                and different project across the nation. We have worked to build
+                Hotel construction, Road Construction, Hotels Constructions and 
+                bridges. We proud of all of our client we worked with. </p>
+          </div>
+          <div class="col-md-6 mt-2">
+            <img src="images/About.jpg" class="img-fluid" alt="About us">
+            </div>
+          </div>
+        </div>
+      </div>  
 
 
+    <div class="site-section how-it-works mt-5" id="services-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="section-title mb-3 text-white">Our Services</h2>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="pr-5">
+              <span class="custom-icon flaticon-house text-primary"></span>
+              <h3 class="text-white">Design And Build</h3>
+              <p class="text-white">Building or improving Shiny apps of any complexity</p>
+            </div>
+          </div>
 
-<!--================ Copyright Section Area =================-->
-	<h6 class="text-center mt-60 mb-2">
-	  <a class="legal-right" href="index.html">PRIVACY POLICY</a> | <a class="legal-right" href="index.html">TERMS OF USE</a><br>
-	</h6>
-<!--================ End Copyright Section Area =================-->
+          <div class="col-md-4 text-center">
+            <div class="pr-5">
+              <span class="custom-icon flaticon-mobile-phone text-primary"></span>
+              <h3 class="text-white">Code Review</h3>
+              <p class="text-white">Code review and optimization of Shiny apps and workflows</p>
+            </div>
+          </div>
 
-<!--================ Copyright Section Area =================-->
-<div class="copyright-text">
-	<h6 class="text-center mt-30 mb-60">
-	<p>&copy; 
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Ibrahim Ajax</p>
-     </h6>
-  </div>
-<!--================ End Copyright Section Area =================-->
-	
+          <div class="col-md-4 text-center">
+            <div class="pr-5">
+              <span class="custom-icon flaticon-home text-primary"></span>
+              <h3 class="text-white">Packages</h3>
+              <p class="text-white">Professional quality R packages and custom solutions</p>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
 
-	<script src="js/vendor/jquery-2.2.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-	 crossorigin="anonymous"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/parallax.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/isotope.pkgd.min.js"></script>
-	<script src="js/jquery.nice-select.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/countdown.js"></script>
-	<script src="js/jquery.sticky.js"></script>
-	<script src="js/main.js"></script>
-</body>
+        
+    <div class="site-section h mt-5" id="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <img src="images/About.jpg" class="img-fluid" alt="About us">
+            </div>
+          <div class="col-md-6">
+            <h2 class="mb-5">We create beautiful and 
+              Outstanding Design
+             </h2>
+            <p class="mt-5">Since 1993 we have worked with more than 40 different clients 
+              and different project across the nation. We have worked to build
+              Hotel construction, Road Construction, Hotels Constructions and 
+              bridges. We proud of all of our client we worked with. </p>
 
+              <p>Since 1993 we have worked with more than 40 different clients 
+                and different project across the nation. We have worked to build
+                Hotel construction, Road Construction, Hotels Constructions and 
+                bridges. We proud of all of our client we worked with. </p>
+          </div>
+          </div>
+        </div>
+      </div>  
+
+    <section class="site-section" id="contact-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="section-title mb-3">Let's Get In Touch!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 offset-md-2 mb-5">
+            <form action="#" class="p-5 bg-white"> 
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">First Name</label>
+                  <input type="text" id="fname" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label class="text-black" for="lname">Last Name</label>
+                  <input type="text" id="lname" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label class="text-black" for="email">Email</label> 
+                  <input type="email" id="email" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label class="text-black" for="subject">Subject</label> 
+                  <input type="subject" id="subject" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="message">Message</label> 
+                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="footer-heading mb-4">About Ibrahim</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+              </div>
+              <div class="col-md-4 ml-auto">
+                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="mb-4">
+              <h2 class="footer-heading mb-4">Contact Through</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">Ibrahimajax@gmail.com</a></li>
+                  <li><a href="#">247189307</a></li>
+                </ul>
+            </div>
+            
+            <div class="">
+                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+  
+  <script src="js/main.js"></script>
+    
+  </body>
 </html>
