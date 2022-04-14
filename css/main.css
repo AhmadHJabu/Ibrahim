@@ -27,10 +27,15 @@
 }
 
 .process-area{
+    color:#fff;
     background-color: #5D38E0;
     margin-bottom: 80px;
     margin-top: 80px;
 }
+.our-process{
+    color:#FFF;
+}
+
 .stat-area {
     margin-top: 80px;
   }
