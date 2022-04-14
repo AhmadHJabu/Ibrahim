@@ -26,4 +26,151 @@
     transition: all 0.3s ease 0s;
 }
 
+.process-area{
+    background-color: #5D38E0;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.stat-area {
+    margin-top: 80px;
+  }
+  
+  .stat-area .single-cat {
+    background: #f3f3f3;
+    border-radius: 6px;
+    padding: 40px 22px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    position: relative;
+    z-index: 1;
+  }
+  
+  @media (max-width: 575px) {
+    .stat-area .single-cat {
+      padding: 50px 22px;
+    }
+  }
+  
+  .stat-area .single-cat::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    background: #5D38E0;
+    transition: .6s;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 6px;
+  }
+  
+  .stat-area .single-cat .cat-icon span {
+    margin-bottom: 50px;
+    width: 90px;
+    height: 90px;
+    background: #ffffff;
+    line-height: 90px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+  }
+  
+  .stat-area .single-cat .cat-cap h5 > a {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    display: block;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    font-family: "Muli", sans-serif;
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .stat-area .single-cat .cat-cap h5 > a {
+      font-size: 26px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .stat-area .single-cat .cat-cap h5 > a {
+      font-size: 26px;
+    }
+  }
+  
+  .stat-area .single-cat .cat-cap p {
+    margin-bottom: 36px;
+    color: #57667e;
+    font-size: 16px;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .stat-area .single-cat .cat-cap p {
+      font-size: 15px;
+    }
+  }
+  
+  .stat-area .single-cat .cat-cap a {
+    color: #1c165c;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+  
+  .stat-area .single-cat.active::before {
+    height: 100%;
+  }
+  
+  .stat-area .single-cat.active .cat-icon span {
+    color: #09cc7f;
+    background: #fff;
+  }
+  
+  .stat-area .single-cat.active .cat-cap h5 {
+    color: #fff;
+  }
+  
+  .stat-area .single-cat.active .cat-cap p {
+    color: #fff;
+  }
+  
+  .stat-area .single-cat.active .cat-cap a {
+    color: #fff;
+  }
+  
+  /* line 99, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
+  .stat-area .single-cat:hover::before {
+    height: 100%;
+  }
+  
+  .stat-area .single-cat:hover .cat-icon span {
+    color: #09cc7f;
+    background: #fff;
+  }
+  
+  .stat-area .single-cat:hover .cat-cap h5 {
+    color: #fff;
+  }
+  
+  .stat-area .single-cat:hover .cat-cap p {
+    color: #fff;
+  }
+  
+
+  .stat-area .single-cat:hover .cat-cap a {
+    color: #fff;
+  }
+
 .text-black{color: #000 !important}
